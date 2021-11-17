@@ -34,6 +34,8 @@ const server: Server = http.createServer((req: IncomingMessage, res: ServerRespo
   }
 }
 );
-server.listen(3005, () => {
+
+const PATH = process.env.PORT || 3005
+server.listen(PATH, () => {
   console.log("Running on port 3005")
 });
