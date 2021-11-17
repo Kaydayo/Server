@@ -1,0 +1,47 @@
+[
+    {
+        "id": 1,
+        "productName": "T Shirt",
+        "productDescription": "Men's Vintage Shirt Casual Short Sleeve T-Shirt",
+        "productVarieties": [
+            {
+                "size": "large",
+                "color": "orange",
+                "quantity": "15",
+                "images": [
+                    "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/83/453283/1.jpg?6332",
+                    "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/83/453283/2.jpg?6332"
+                ],
+                "price": "23000"
+            },
+            {
+                "size": "medium",
+                "color": "large",
+                "quantity": "35",
+                "images": [
+                    "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/86/690064/1.jpg?7852",
+                    "https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/86/690064/3.jpg?3113"
+                ],
+                "price": "35000"
+            }
+        ],
+        "dateUploaded": "1636633307531",
+        "dateEdited": "1636633307531"
+    },
+    {
+        "id": 2,
+        "productName": "Android",
+        "productDescription": "Humanoid phone for smart persons",
+        "productVarieties": "samsung",
+        "dateUploaded": "2021-11-17T12:02:07.155Z",
+        "dateEdited": "2021-11-17T12:02:07.155Z"
+    },
+    {
+        "id": 3,
+        "productName": "apple",
+        "productDescription": "Humanoid phone for smart persons",
+        "productVarieties": "samsung",
+        "dateUploaded": "2021-11-17T12:03:54.214Z",
+        "dateEdited": "2021-11-17T12:03:54.214Z"
+    }
+]
