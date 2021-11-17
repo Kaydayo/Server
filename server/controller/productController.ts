@@ -34,12 +34,14 @@ export async function getSingleProduct(
 export async function createProduct(req: IncomingMessage, res: ServerResponse) {
   try {
     const body = (await getData(req)) as string;
-    const { productName, productDescription, productVarieties } =
+    const { productName, productDescription, productVarieties, productColor, productSize } =
       JSON.parse(body);
     const product: any = {
       productName,
       productDescription,
       productVarieties,
+      productColor,
+      productSize,
       dateUploaded: new Date().toISOString(),
       dateEdited: new Date().toISOString(),
     };
